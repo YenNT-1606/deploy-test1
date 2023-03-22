@@ -1,0 +1,86 @@
+*{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 18px;
+}
+.header-content{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header-content a{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 18px;
+    color: #000000;
+    margin-right: 18px;
+    text-decoration: none;
+}
+.container-header{
+    overflow: auto;
+}
+.btn-add button{
+    float: right;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 18px;
+}
+.container{
+    background: rgba(217, 217, 217, 0.5);
+    padding: 5px;
+}
+.table-search-bar{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 20px;
+}
+.show{
+    margin-right: 10px;
+}
+.search-bar{
+    display: flex;
+    margin-bottom: 10px;
+    float: right;
+    margin-bottom: 20px;
+
+}
+.show{
+    margin-right: 10px;
+}
+.container-head-body{
+    margin: 10px;
+    padding: 30px;
+}
+.form-select,
+.form-control{
+    font-size: 18px;
+}
+.input-find{
+    margin-left: 30px;
+}
+.form-select{
+    margin-right: 20px;
+}
+
+table tr th{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+tbody tr td{
+    line-height: 30px;
+    min-height: 30px;
+    height: 30px;
+
+    font-weight: 400;
+}

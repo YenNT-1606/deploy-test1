@@ -1,0 +1,41 @@
+.container-tilte-table{
+    padding: 10px;
+    margin: 10px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+.socialInsuranceList-addSocialInsurance{
+    margin: 5px;
+    padding: 5px;
+    display: inline-flex;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.53);
+}
+.socialInsuranceList-addSocialInsurance a{
+    color: rgba(0, 0, 0, 0.53);
+}
+.socialInsuranceList-addSocialInsurance div{
+    margin-right: 10px;
+}
+.form{
+    margin: 10px;
+    padding: 20px;
+    background-color: #FAFAFA;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.form input{
+    font-size: 17px;
+}
+.form button{
+    font-size: 20px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.row{
+    margin-bottom: 20px;
+}
+.btn a{
+    color: #FAFAFA;
+}

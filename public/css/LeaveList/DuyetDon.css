@@ -1,0 +1,119 @@
+l.main_page {
+    /* float: right; */
+}
+.fluid-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+* {
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    max-width: 160rem;
+    min-height: 50rem;
+    min-height: 80%;
+    background: #e3e3e3;
+    border-radius: 5px;
+    box-shadow: 0 1rem 2rem rgb(0 0 0 / 25%);
+    justify-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.add-function {
+    background: #c6c6c6;
+    display: flex;
+    margin: 3rem;
+    gap: 1rem;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 15px;
+    padding: 1rem;
+    color: black;
+    justify-items: center;
+    /* align-self: center; */
+}
+
+.add-function p {
+    margin-bottom: 0 !important;
+}
+
+.navigation,
+.navigation:hover {
+    color: #848484;
+}
+.add-function span {
+    font-size: 2rem;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.form-fle {
+    justify-items: center;
+    align-self: center;
+}
+.grid {
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25rem;
+    row-gap: 8rem;
+    justify-content: space-around;
+}
+.lb-add {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.4rem;
+}
+.ip-add {
+    width: 47rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+.content {
+    grid-column: 1 / span 1;
+}
+.content textarea {
+    font-size: 1.4rem;
+}
+.save-btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    grid-column: 2 / 2;
+    justify-self: end;
+    background-color: red;
+    border-color: white;
+    width: 10rem;
+    height: 5rem;
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.save-btn a {
+    color: white;
+    border: none;
+}
+.error {
+    color: red;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.hidden {
+    visibility: none;
+    opacity: 0;
+}
+.color-blue {
+    background-color: #5a5278;
+}
+.flex-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+}

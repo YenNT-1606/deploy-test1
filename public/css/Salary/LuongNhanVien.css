@@ -1,0 +1,16 @@
+.fullrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.fullrow .bi {
+    font-size: 2rem;
+    margin: 0px 10px;
+}
+.fullrow .month-nav {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #348cce;
+}

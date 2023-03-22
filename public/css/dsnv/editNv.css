@@ -1,0 +1,43 @@
+*{
+    font-size: 17px;
+}
+.fluid-container{
+    padding: 20px;
+}
+input, select{
+    font-size: 17px !important;
+    background: rgba(90, 82, 120, 0.1) !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+select{
+    padding: 4px;
+    border: none;
+}
+button{
+    font-size: 17px !important;
+    margin-left: 10px;
+}
+.container{
+    padding: 20px;
+}
+#container-form{
+    display: flex;
+}
+form{
+    overflow-x: hidden !important;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+.container{
+    background-color: #EBEBEB;
+}
+img{
+    width: 130px;height: 150px;
+}
+.update-exit{
+    float: right;margin-top: 20px;
+}
+.col-6{
+    margin-bottom: 30px !important;
+}
